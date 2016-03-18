@@ -1,0 +1,20 @@
+!!!
+html
+  head
+    title="Bibliosofo Login"
+    link(href="/librarian.css",rel="stylesheet")
+  body
+   #content(style='float:left;')
+     #error
+       p #{error}
+     #login
+       form(name='auth',method='POST',action='/')
+         label(for='username') 
+           b UserName:
+         input(id='username',type='text',name='username')
+         br
+         label(for='pwd')
+           b Password:
+         input(id='pwd',type='password',name='pwd')
+         br
+         input(type='submit',value='Logear') 

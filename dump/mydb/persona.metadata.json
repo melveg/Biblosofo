@@ -1,0 +1,1 @@
+{ "options" : { "create" : "persona" }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "mydb.persona", "name" : "_id_" } ] }

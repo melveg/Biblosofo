@@ -1,0 +1,13 @@
+!!!
+html
+  head
+    title= "Librarian Research"
+    script(src='/jquery.js') 
+    script(type='text/javascript').
+     var active=#{active};
+    script(src='/librarian.js')
+    script(src='/socket.io/socket.io.js')
+    link(href="/librarian.css",rel="stylesheet")
+  body
+    #content(style='float:left;')
+    #window-container(style="float:left;")

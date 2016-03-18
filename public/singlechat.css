@@ -1,0 +1,22 @@
+div.window{
+ float:left;
+ /*position:absolute;*/
+ margin:5px;
+ background:gray;
+ padding:10px;
+ height:auto !important;
+}
+
+div.message{
+ float:left;
+ background:#ffffff;
+ font-size:12px;
+ font-family:sans-serif;
+ clear:both;
+ border:1px solid #000000;
+}
+div.controls{
+ float:left;
+ background:silver;
+ border:1px solid #000000;
+}

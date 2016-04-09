@@ -4,7 +4,7 @@ var pubconnuser={};
 var req=null;
 var error="";
 express=require("express");
-var mongo = require("../mongo");
+var mongo = require("./mongo");
 /*for(var l=0;l<librarians.length;l++)
  console.log(librarians[l]["user"]+"\n");
 console.log(Math.floor((Math.random()*librarians.length)+1));*/
